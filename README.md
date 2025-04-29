@@ -12,3 +12,7 @@ Data and code to replicate "Animal Welfare Levy"
 
 3. The Folder "Simulations Environmental Tax" contains the R script to reproduce the simulation of a GHG tax on beef products (Figure B2). 
 
+
+
+## Data Availability Statement: 
+We provide the anonymized raw data for the survey data, as the original dataset contains private information. 
