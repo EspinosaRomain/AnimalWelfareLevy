@@ -1,5 +1,5 @@
 # AnimalWelfareLevy
-Data and code to replicate "Animal Welfare Levy"
+Data and code to replicate "Animal Welfare Levy". Software: R for data analysis, Numbers (macOS) for visualizations. 
 
 1. The Folder "Animal Welfare Levies" contains the scripts to reproduce the taxation levels for the chickens under the various rearing systems (Table 3), the main figures for the taxation levels (Figure 3), the main sensitivity analyses (Table 4), and the supplementary sensitivity analysis (Table OA1 in the Online Appendix). 
 - Compute AWL: R script to reproduce the results
