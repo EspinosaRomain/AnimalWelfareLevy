@@ -5,6 +5,9 @@ options(scipen=999)
 
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
+#Starting time
+starting_time <- proc.time()
+
 #Import files
 source("DataOnAnimals.R")
 source("FunctionsAWL.R")
@@ -62,6 +65,10 @@ rownames(chickenLevyTable)=chickenList
 colnames(chickenLevyTable)=c("W0=7","W0=10")
 chickenLevyTable
 
+#Chicken welfare level (Table 3): opposite of the taxation levels under Total Utilitarianism
+chickenWelfareTable=-chickenLevyTable
+chickenWelfareTable
+
 ### MAIN Sensitivity analysis ###
 
 #Baseline Results for W0=10
@@ -116,3 +123,10 @@ S=20000
 resPrioritarianism=launchSimulation(S, SWF_funct="Prioritarian")
 t_prior=sumTable(resPrioritarianism,resBasline)
 t_prior
+
+
+#Ending time
+ending_time <- proc.time()
+
+#Running time
+(ending_time-starting_time)["elapsed"]
