@@ -5,6 +5,9 @@ options(scipen=999)
 
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
+#Starting time
+starting_time <- proc.time()
+
 #####SET PARAMETERS#####
 
 #Setting parameters
@@ -196,3 +199,9 @@ round(changeInExt[5],2)
 
 #Change in Cow Welfare externalities:
 round(changeInExt[6]+changeInExt[7],2)
+
+#Ending time
+ending_time <- proc.time()
+
+#Running time
+(ending_time-starting_time)["elapsed"]
