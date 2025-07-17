@@ -13,6 +13,9 @@ loadRData <- function(fileName){
   get(ls()[ls() != "fileName"])
 }
 
+#Starting time
+starting_time <- proc.time()
+
 #Load survey data
 mydata=loadRData("SurveyData_Anonym.RData")
 
@@ -95,8 +98,8 @@ matOccurences
 
 #Obtaining frequencies
 matFrequencies=matOccurences
-matFrequencies[,2]=matOccurences[,2]/(table(mydata$framing)["Negative Welfare"])
-matFrequencies[,3]=matOccurences[,3]/(table(mydata$framing)["Life Not Worth Living"])
+matFrequencies[,2]=matOccurences[,2]/sum(matOccurences[,2])
+matFrequencies[,3]=matOccurences[,3]/sum(matOccurences[,3])
 matFrequencies=round(matFrequencies,3)
 matFrequencies
 
@@ -118,3 +121,9 @@ returnMedian(matFrequencies[,2])
 
 #Median for treatment: life becomes not worth living
 returnMedian(matFrequencies[,3])
+
+#Ending time
+ending_time <- proc.time()
+
+#Running time
+(ending_time-starting_time)["elapsed"]
