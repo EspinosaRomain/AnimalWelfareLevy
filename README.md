@@ -16,5 +16,9 @@ Data and code to replicate "Animal Welfare Levy". Software: R for data analysis,
 - The R script to reproduce the simulation of a GHG tax on beef products (Figure B2) (expected running time: less than one second).
 - Simulation taxes (Numbers file): To reproduce Figure B2.
 
+## External Data
+
+Figures 2 and 3 use data from the following external report: CE Delft (2023) Pay as you eat dairy, eggs and meat: Internalising external costs of animal food products in France, Germany and the EU27. (Link: https://cedelft.eu/wp-content/uploads/sites/2/2023/03/CE_Delft_220109_Pay_as_you_eat_dairy_eggs_and_meat_Def_3.pdf) 
+
 ## Data Availability Statement: 
 We provide the anonymized raw data for the survey data, as the original dataset contains private information. 
