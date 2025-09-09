@@ -5,10 +5,10 @@ Data and code to replicate "Animal Welfare Levy". Software: R for data analysis,
 - Compute AWL: R script to reproduce the results (expected running time: about 10 seconds)
 - DataOnAnimals: R source file to load data on the animals
 - FunctionsAWL: the functions used to compute the levies under various hypotheses
-- "Taxes computation - Baseline": the "Numbers" file to reproduce Figures 2 and 3, and Tables 2 and 3.
+- "Taxes computation - Baseline": the "Numbers" file to reproduce Figures 2 and 3, and Tables 2 and 3. Note that "Table 6" in the first sheet of the Numbers file is taken from the CE Delft Report (2023).
 
-2. The Folder "Survey Data" contains the data and codes to reproduce the results for the online survey (Figure B1). It contains:
-- The anonymized raw data (R data)
+2. The Folder "Survey Data" contains the original data that were collected and codes to reproduce the results for the online survey (Figure B1). It contains:
+- The anonymized raw data that were collected (R data)
 - The script to clean and analyze the data (R script) (expected running time: less than one second)
 - "Graph answers online survey" (Numbers file): To reproduce Figure B1. 
 
