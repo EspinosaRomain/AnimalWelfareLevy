@@ -18,7 +18,11 @@ Data and code to replicate "Animal Welfare Levy". Software: R for data analysis,
 
 ## External Data
 
-Figures 2 and 3 use data from the following external report: CE Delft (2023) Pay as you eat dairy, eggs and meat: Internalising external costs of animal food products in France, Germany and the EU27. (Link: https://cedelft.eu/wp-content/uploads/sites/2/2023/03/CE_Delft_220109_Pay_as_you_eat_dairy_eggs_and_meat_Def_3.pdf) 
+The Folder "External Resources" contains materials used in the work that originate from external parties. 
+
+- CE Delft (2023) Pay as you eat dairy, eggs and meat: Internalising external costs of animal food products in France, Germany and the EU27. Data were used to produce Figures 2 and 3. The "Table 6" that is included in "Taxes computation - Baseline.numbers" (see above) originates from this report. (Link: https://cedelft.eu/wp-content/uploads/sites/2/2023/03/CE_Delft_220109_Pay_as_you_eat_dairy_eggs_and_meat_Def_3.pdf) 
+
+ 
 
 ## Data Availability Statement: 
 We provide the anonymized raw data for the survey data, as the original dataset contains private information. 
